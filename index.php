@@ -1,9 +1,7 @@
 <?php
 	require "person.php";
 
-	$person = new person;
-	$person->name="John";
-	$person->age="35";
-
+	$person = new person("Micheal",80);
+	
 	echo $person->sentence();
 ?>
