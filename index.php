@@ -1,10 +1,6 @@
 <?php
-	require "vehicle.php";
-	require "ducati.php";
+	include "question.php";
+	include "author.php";
 
-	$ducati = new ducati(2," ducati 998");
-
-	echo $ducati->is_bike();
-
-
-?>
+	$question = new question(new author);
+?>	
