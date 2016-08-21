@@ -1,7 +1,10 @@
 <?php
-	require "person.php";
+	require "vehicle.php";
+	require "ducati.php";
 
-	$person = new person("Micheal",80);
-	
-	echo $person->sentence();
+	$ducati = new ducati(2," ducati 998");
+
+	echo $ducati->is_bike();
+
+
 ?>
