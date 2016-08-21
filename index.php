@@ -1,12 +1,9 @@
 <?php
-	include "person.php";
+	require "person.php";
 
-	$person = new Person;
+	$person = new person;
+	$person->name="John";
+	$person->age="35";
 
-	$person->name="Nico";
-	$person->age="27";
-
-	echo $person->name . " is " . $person->age . " years old."
-
-
+	echo $person->sentence();
 ?>
